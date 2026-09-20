@@ -30,6 +30,7 @@
 ## 📸 スクリーンショット
 <img width="1920" height="1020" alt="gamepad-todo_img01" src="https://github.com/user-attachments/assets/b5aca95d-39d3-442f-ad5e-b000fcc5c162" />
 <img width="1920" height="1020" alt="gamepad-todo_img02" src="https://github.com/user-attachments/assets/5f896036-a3ae-4ce6-a9d1-b034c36e6d31" />
+<img width="1600" height="896" alt="gamepad-todo_img03" src="https://github.com/user-attachments/assets/03ff988c-6075-43b2-9a31-c4750d1d1f46" />
 
 ## 👨‍💻 開発プロセス
 *   **企画〜実装**: 約1人日の集中開発で構築。
