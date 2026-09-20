@@ -1,32 +1,38 @@
-# React + TypeScript + Vite
+# 🏰 夏休みの宿題クエスト (Summer Homework Quest)
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+レトロRPG風のUIとゲームパッド操作で、夏休みの宿題を楽しく継続できるタスク管理アプリです。
 
-Currently, two official plugins are available:
+## 🎯 アプリの目的
+夏休みの宿題という長期的なプロジェクトに対し、ゲーミフィケーション（ゲーム要素）と視覚的な進捗管理（バーンダウンチャート）を取り入れることで、子どもの自発的な学習意欲と継続をサポートすることを目的としています。
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 主な特徴・アピールポイント
 
-## React Compiler
+### 🎮 エンタメ×アクセシビリティ
+キーボード操作だけでなく、**Gamepad API**を用いてゲームパッドでの完全操作に対応。10ft UI（テレビ画面での利用）も考慮し、面倒な作業をゲーム体験に昇華させました。
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 📊 カレンダー連動型バーンダウンチャート
+重いグラフライブラリを使わず、**HTML5 SVG**を用いてカスタム描画。
+1.  夏休みの期間（開始日〜終了日）に応じたX軸の自動スケーリング
+2.  **土日祝日のカラーハイライト**（土曜：青、日曜・祝日：赤）
+3.  日々の進捗に応じて階段状に右下へ進む**「実績ステップグラフ」**
+4.  視認性の高い20刻みのY軸目盛りとグリッド線
 
-## Expanding the Oxlint configuration
+### 👨‍👩‍👧‍👦 実用的なモード管理
+*   **子どもモード**：クエスト（宿題）の選択とポイント消化に集中できるシンプルUI。
+*   **親モード**：夏休みの期間設定、新しい宿題・ポイントの追加、削除が可能な管理画面（LocalStorageで永続化）。
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+## 🛠️ 開発環境・技術スタック
+*   **Language / Framework**: React, TypeScript
+*   **Build Tool**: Vite
+*   **Styling**: Tailwind CSS
+*   **Key Features**: Gamepad API, Web Audio API (SE), LocalStorage API
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+## 📸 スクリーンショット
+（ここに、生成したバーンダウンチャートのサンプル画像や、実際のアプリのスクリーンショットをドラッグ＆ドロップで貼り付けてください）
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+## 👨‍💻 開発プロセス
+*   **企画〜実装**: 約1人日の集中開発で構築。
+*   **AI活用**: 設計やアルゴリズムの壁打ち、コードの最適化にAIを開発パートナーとして活用し、短期間での高品質な実装を実現しました。
+
+## 🚀 デモ
+（もしVercel等でデモ環境を公開していれば、そのURLをここに貼ってください）
