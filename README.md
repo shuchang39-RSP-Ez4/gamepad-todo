@@ -30,6 +30,7 @@
 ## 📸 スクリーンショット
 <img width="1920" height="1020" alt="gamepad-todo_img01" src="https://github.com/user-attachments/assets/b5aca95d-39d3-442f-ad5e-b000fcc5c162" />
 **【図1：夏休みの宿題クエスト（子供モード）のUI】**
+
 レトロRPG風のデザインを採用したタスク管理画面。左側のリストから宿題を選択し、右側のバーンダウンチャートで進捗を確認できます。上部には夏休みの期間と残り日数が表示され、達成感を視覚化する工夫がされています。
 <img width="1920" height="1020" alt="gamepad-todo_img02" src="https://github.com/user-attachments/assets/5f896036-a3ae-4ce6-a9d1-b034c36e6d31" />
 【図2：夏休みの宿題クエスト（親モード）の管理画面】
