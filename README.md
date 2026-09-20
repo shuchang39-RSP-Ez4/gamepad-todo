@@ -28,7 +28,8 @@
 *   **Key Features**: Gamepad API, Web Audio API (SE), LocalStorage API
 
 ## 📸 スクリーンショット
-（ここに、生成したバーンダウンチャートのサンプル画像や、実際のアプリのスクリーンショットをドラッグ＆ドロップで貼り付けてください）
+<img width="1920" height="1020" alt="gamepad-todo_img01" src="https://github.com/user-attachments/assets/b5aca95d-39d3-442f-ad5e-b000fcc5c162" />
+<img width="1920" height="1020" alt="gamepad-todo_img02" src="https://github.com/user-attachments/assets/5f896036-a3ae-4ce6-a9d1-b034c36e6d31" />
 
 ## 👨‍💻 開発プロセス
 *   **企画〜実装**: 約1人日の集中開発で構築。
